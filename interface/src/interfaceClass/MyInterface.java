@@ -1,19 +1,19 @@
 package interfaceClass;
 
 public interface MyInterface {
-	//ÀÎÅÍÆäÀÌ½º(ÀÌ¸§'~~able'º¸Åë ÀÌ·¸°Ô ¸¸µê -±ÔÄ¢?)
-	//1. »ý¼ºÀÌ ºÒ°¡ÇÏ´Ù.
-	//2. Å¬·¡½º Ã³·³ ¸â¹ö¸¦ Á¤ÀÇ ÇÒ¼ö ¾ø´Ù.
-	//3. µÎ°¡Áö Çü½ÄÀÇ ¸â¹ö¸¸ Á¤ÀÇ ÇÒ¼ö ÀÖ´Ù.(Ãß»ó¸Þ¼Òµå, final »ó¼ö, µðÆúÆ® ¸Þ¼Òµå)
-	//   -- ¸â¹öÀÇ Á¦ÇÑÀÚ´Â »ý·«°¡´ÉÇÏ´Ù.
-	//4. ¹Ýµå½Ã Å¬·¡½º¿¡ »ó¼ÓÇØ¾ßÇÑ´Ù.
-	//5. ÀÚ½ÄÅ¬·¡½º´Â Ãß»ó¸Þ¼Òµå¸¦ ¿À¹ö¶óÀÌµù ÇØ¾ßÇÑ´Ù.
-	//6. ÀÎÅÍÆäÀÌ½º°£ »ó¼Óµµ °¡´ÉÇÑ´Ù.
-	//7. ´ÙÁß »ó¼ÓÀÌ °¡´ÉÇÏ´Ù.
-	//8. *Å¬·¡½º¿Í µ¿ÀÏÇÏ°Ô ´ÙÇü¼ºÀ» Àû¿ëÇÒ¼ö ÀÖ´Ù.
+	//ì¸í„°íŽ˜ì´ìŠ¤(ì´ë¦„'~~able'ë³´í†µ ì´ë ‡ê²Œ ë§Œë“¦ -ê·œì¹™?)
+	//1. ìƒì„±ì´ ë¶ˆê°€í•˜ë‹¤.
+	//2. í´ëž˜ìŠ¤ ì²˜ëŸ¼ ë©¤ë²„ë¥¼ ì •ì˜ í• ìˆ˜ ì—†ë‹¤.
+	//3. ë‘ê°€ì§€ í˜•ì‹ì˜ ë©¤ë²„ë§Œ ì •ì˜ í• ìˆ˜ ìžˆë‹¤.(ì¶”ìƒë©”ì†Œë“œ, final ìƒìˆ˜, ë””í´íŠ¸ ë©”ì†Œë“œ)
+	//   -- ë©¤ë²„ì˜ ì œí•œìžëŠ” ìƒëžµê°€ëŠ¥í•˜ë‹¤.
+	//4. ë°˜ë“œì‹œ í´ëž˜ìŠ¤ì— ìƒì†í•´ì•¼í•œë‹¤.
+	//5. ìžì‹í´ëž˜ìŠ¤ëŠ” ì¶”ìƒë©”ì†Œë“œë¥¼ ì˜¤ë²„ë¼ì´ë”© í•´ì•¼í•œë‹¤.
+	//6. ì¸í„°íŽ˜ì´ìŠ¤ê°„ ìƒì†ë„ ê°€ëŠ¥í•œë‹¤.
+	//7. ë‹¤ì¤‘ ìƒì†ì´ ê°€ëŠ¥í•˜ë‹¤.
+	//8. *í´ëž˜ìŠ¤ì™€ ë™ì¼í•˜ê²Œ ë‹¤í˜•ì„±ì„ ì ìš©í• ìˆ˜ ìžˆë‹¤.
 	
-//	public static final int MAX = 100; // public static final ¦¤
-//	public abstract void method();     // public abstract     ¦¥ (»ý·«°¡´É)
+//	public static final int MAX = 100; // public static final â”
+//	public abstract void method();     // public abstract     â”˜ (ìƒëžµê°€ëŠ¥)
 //	     |
 //	     V 
 	int MAX = 100;

@@ -12,8 +12,8 @@ public class Bear extends GameObject {
 	}
 
 	@Override
-	public void move() { // °õÀÇ ÀÌµ¿
-		System.out.println("¿ŞÂÊ(a), ¿À¸¥ÂÊ(d), À§(w), ¾Æ·¡(s) >> ");
+	public void move() { // ê³°ì˜ ì´ë™
+		System.out.println("ì™¼ìª½(a), ì˜¤ë¥¸ìª½(d), ìœ„(w), ì•„ë˜(s) >> ");
 		char c;
 		c= sc.next().charAt(0);
 		if(c == 'a') {
@@ -22,7 +22,7 @@ public class Bear extends GameObject {
 				x = 0;
 		}else if(c == 'd') {
 			x++;
-			if(x >= Game.MAX_X) //Game.MAX_X = ½ºÅÂÆ½º¯¼ö
+			if(x >= Game.MAX_X) //Game.MAX_X = ìŠ¤íƒœí‹±ë³€ìˆ˜
 				x = Game.MAX_X - 1;
 		}else if(c == 'w') {
 			y--;
@@ -36,7 +36,7 @@ public class Bear extends GameObject {
 	}
 
 	@Override
-	public char getShape() { // °õÀÇ ¸ğ¾ç		
+	public char getShape() { // ê³°ì˜ ëª¨ì–‘		
 		return 'B';
 	}
 

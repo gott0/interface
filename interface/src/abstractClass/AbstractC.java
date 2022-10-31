@@ -1,14 +1,14 @@
 package abstractClass;
 
-public abstract class AbstractC {//'abstract' º¸Åë Á¢±ÙÁ¦ÇÑÀÚ µÚ¿¡ ºÙÀÎ´Ù. ½ÇÁúÀûÀ¸·Î ¼ø¼­´Â »ó°ü¾ø´Ù.(°³¹ßÀÚµé ±ÔÄ¢)
+public abstract class AbstractC {//'abstract' ë³´í†µ ì ‘ê·¼ì œí•œìž ë’¤ì— ë¶™ì¸ë‹¤. ì‹¤ì§ˆì ìœ¼ë¡œ ìˆœì„œëŠ” ìƒê´€ì—†ë‹¤.(ê°œë°œìžë“¤ ê·œì¹™)
 	
-	//Ãß»óÅ¬·¡½º
-	//1.abstractÁ¦ÇÑÀ» ºÙ¿©¼­ Å¬·¡½º¸¦ ¼±¾ðÇÑ´Ù.
-	//2.ÀÏ¹Ý Å¬·¡½º¿Í µ¿ÀÏÇÏ°Ô ¸â¹ö¸¦ Á¤ÀÇÇÑ´Ù.
-	//3.Ãß»ó¸Þ¼Òµå¸¦ Á¤ÀÇÇÑ´Ù.(¼±¾ðºÎ¸¸ Á¸Àç)
-	//4.»ý¼ºÀÌ ºÒ°¡ÇÏ´Ù.
-	//5.¹Ýµå½Ã ÀÚ½Ä Å¬·¡½º¿¡ »ó¼ÓÇØ¾ß µÈ´Ù.(»ó¼ÓÀ» À§ÇÑ Å¬·¡½º)
-	//6.ÀÚ½Ä Å¬·¡½º´Â ¹Ýµå½Ã Ãß»ó¸Þ¼Òµå¸¦ ¿À¹ö¶óÀÌµù ÇØ¾ßÇÑ´Ù.
+	//ì¶”ìƒí´ëž˜ìŠ¤
+	//1.abstractì œí•œì„ ë¶™ì—¬ì„œ í´ëž˜ìŠ¤ë¥¼ ì„ ì–¸í•œë‹¤.
+	//2.ì¼ë°˜ í´ëž˜ìŠ¤ì™€ ë™ì¼í•˜ê²Œ ë©¤ë²„ë¥¼ ì •ì˜í•œë‹¤.
+	//3.ì¶”ìƒë©”ì†Œë“œë¥¼ ì •ì˜í•œë‹¤.(ì„ ì–¸ë¶€ë§Œ ì¡´ìž¬)
+	//4.ìƒì„±ì´ ë¶ˆê°€í•˜ë‹¤.
+	//5.ë°˜ë“œì‹œ ìžì‹ í´ëž˜ìŠ¤ì— ìƒì†í•´ì•¼ ëœë‹¤.(ìƒì†ì„ ìœ„í•œ í´ëž˜ìŠ¤)
+	//6.ìžì‹ í´ëž˜ìŠ¤ëŠ” ë°˜ë“œì‹œ ì¶”ìƒë©”ì†Œë“œë¥¼ ì˜¤ë²„ë¼ì´ë”© í•´ì•¼í•œë‹¤.
 
 	int x;
 	
@@ -20,5 +20,5 @@ public abstract class AbstractC {//'abstract' º¸Åë Á¢±ÙÁ¦ÇÑÀÚ µÚ¿¡ ºÙÀÎ´Ù. ½ÇÁúÀ
 		
 	}
 	
-	abstract void abstractMethod(); // Ãß»ó ¸Þ¼Òµå : 1.ÇÊ¼ö±â´É, 2.¿À¹ö¶óÀÌµù (°­Á¦±¸Çö)
+	abstract void abstractMethod(); // ì¶”ìƒ ë©”ì†Œë“œ : 1.í•„ìˆ˜ê¸°ëŠ¥, 2.ì˜¤ë²„ë¼ì´ë”© (ê°•ì œêµ¬í˜„)
 }

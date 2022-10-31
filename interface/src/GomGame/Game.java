@@ -5,9 +5,9 @@ public class Game {
 	public static final int MAX_X = 20;
 	public static final int MAX_Y = 10;
 
-	private char[][] map = new char[MAX_Y][MAX_X]; // Çà : 0~9 , ¿­ : 0~19
+	private char[][] map = new char[MAX_Y][MAX_X]; // í–‰ : 0~9 , ì—´ : 0~19
 	private GameObject[] m = new GameObject[2];
-	int state; // 0: °ÔÀÓ Áß , 1: °ÔÀÓ ³¡
+	int state; // 0: ê²Œì„ ì¤‘ , 1: ê²Œì„ ë
 
 	{
 		System.out.println("====================");
@@ -29,17 +29,17 @@ public class Game {
 	}
 
 	public void run() {
-		System.out.println("BearÀÇ Fish ¸Ô±â °ÔÀÓÀ» ½ÃÀÛÇÕ´Ï´Ù.**");
+		System.out.println("Bearì˜ Fish ë¨¹ê¸° ê²Œì„ì„ ì‹œì‘í•©ë‹ˆë‹¤.**");
 		
-		update(); // 'B'¿Í @'¸¦ x,y¸¦ ÀÌ¿ëÇØ¼­ ¹è¿­¿¡ ³Ö¾îÁÖ´Â ¿ªÇÒ
-		draw(); // ¹è¿­ÀÇ °ªÀ» Ãâ·ÂÇÏ´Â ¿ªÇÒ
+		update(); // 'B'ì™€ @'ë¥¼ x,yë¥¼ ì´ìš©í•´ì„œ ë°°ì—´ì— ë„£ì–´ì£¼ëŠ” ì—­í• 
+		draw(); // ë°°ì—´ì˜ ê°’ì„ ì¶œë ¥í•˜ëŠ” ì—­í• 
 
-		       // ¦£ !true = false = Ãæµ¹ÀÌ ¾È ‰çÀ» °æ¿ì À§ÀÇ µÎ ¸Ş¼Òµå¸¦ ¹İº¹½ÃÅ²´Ù.
+		       // â”Œ !true = false = ì¶©ëŒì´ ì•ˆ ë¬ì„ ê²½ìš° ìœ„ì˜ ë‘ ë©”ì†Œë“œë¥¼ ë°˜ë³µì‹œí‚¨ë‹¤.
 		while (!doesEnd()) {
 			clear();
 
 			for (int i = 0; i < m.length; i++) {
-				m[i].move(); // i°¡ 0ÀÌµÇ¸é º£¾îÀÇ ¹«ºê½ÇÇà, 1ÀÌµÇ¸é ÇÇ½¬ÀÇ ¹«ºê½ÇÇà
+				m[i].move(); // iê°€ 0ì´ë˜ë©´ ë² ì–´ì˜ ë¬´ë¸Œì‹¤í–‰, 1ì´ë˜ë©´ í”¼ì‰¬ì˜ ë¬´ë¸Œì‹¤í–‰
 			}
 
 			update();
@@ -78,7 +78,7 @@ public class Game {
 
 	}
 
-	private boolean doesEnd() { //Ãæµ¹ ‰çÀ» ¶§
+	private boolean doesEnd() { //ì¶©ëŒ ë¬ì„ ë•Œ
 		if (m[0].collide(m[1])) {
 			return true;
 		} else {

@@ -8,10 +8,10 @@ import lombok.Setter;
 @Getter
 @AllArgsConstructor
 
-public abstract class GameObject { //Ãæµ¹±â´É ¸Ş¼Òµå(°õ°ú ¹°°í±â°¡ °°Àº À§Ä¡¿¡ Ãæµ¹)
-	 //¦£ gettet,setter Ãß°¡ÇØÁÖ±â
-	protected int distance; // ÀÌµ¿°Å¸®
-	protected int x , y; // ÇöÀç À§Ä¡(ÁÂÇ¥)
+public abstract class GameObject { //ì¶©ëŒê¸°ëŠ¥ ë©”ì†Œë“œ(ê³°ê³¼ ë¬¼ê³ ê¸°ê°€ ê°™ì€ ìœ„ì¹˜ì— ì¶©ëŒ)
+	 //â”Œ gettet,setter ì¶”ê°€í•´ì£¼ê¸°
+	protected int distance; // ì´ë™ê±°ë¦¬
+	protected int x , y; // í˜„ì¬ ìœ„ì¹˜(ì¢Œí‘œ)
 	
 	public boolean collide(GameObject p) {
 		if(this.x == p.getX() && this.y == p.getY()) {

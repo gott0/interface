@@ -1,7 +1,7 @@
 package interfaceClass;
 
 public class Fighter extends Unit implements Fighterable {
-//                      ¦¦»ó¼Ó                      ¦¦±¸Çö
+//                      â””ìƒì†                      â””êµ¬í˜„
 
 	@Override
 	public void move(int x, int y) {

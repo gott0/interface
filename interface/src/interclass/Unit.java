@@ -1,8 +1,8 @@
 package interclass;
 
 public class Unit {
-	int hitPoint; // ÇöÀç HP
-	final int Max_HP; // ÃÖ´ë HP
+	int hitPoint; // í˜„ì¬ HP
+	final int Max_HP; // ìµœëŒ€ HP
 
 	Unit(int hp) {
 		super();

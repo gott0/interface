@@ -5,7 +5,7 @@ public class SCV extends GroundUnit implements Repairable {
 	SCV(int hp) {
 		super(hp);
 		hitPoint = Max_HP;
-	}//  ¦¦º¯¼ö                  ¦¦»ó¼ö (º¯ÇÏÁö ¾Ê´Â »ó¼ö¸¦ º¯È­ ½ÃÄÑÁÖ±â À§ÇØ º¯¼ö¸¦ ÁöÁ¤ÇØÁØ´Ù.)
+	}//  â””ë³€ìˆ˜                  â””ìƒìˆ˜ (ë³€í•˜ì§€ ì•ŠëŠ” ìƒìˆ˜ë¥¼ ë³€í™” ì‹œì¼œì£¼ê¸° ìœ„í•´ ë³€ìˆ˜ë¥¼ ì§€ì •í•´ì¤€ë‹¤.)
 
 //	void repair(Tank t) {
 //
@@ -21,7 +21,7 @@ public class SCV extends GroundUnit implements Repairable {
 			while(u.hitPoint != u.Max_HP) {
 				u.hitPoint++;
 			}
-			System.out.println(u.toString()+"ÀÇ ¼ö¸® ¿Ï·á");
+			System.out.println(u.toString()+"ì˜ ìˆ˜ë¦¬ ì™„ë£Œ");
 		}
 		
 	}

@@ -7,7 +7,7 @@ public class Fish extends GameObject {
 	}
 
 	@Override
-	protected void move() { // ¹°°í±âÀÇ ÀÌµ¿
+	protected void move() { // ë¬¼ê³ ê¸°ì˜ ì´ë™
 		int n = (int)(Math.random()*5);// 0,1,2,3,4
 		if(n == 0) {
 			x += distance;
@@ -34,7 +34,7 @@ public class Fish extends GameObject {
 	}
 
 	@Override
-	protected char getShape() { //¹°°í±â ¸ğ¾ç
+	protected char getShape() { //ë¬¼ê³ ê¸° ëª¨ì–‘
 		return '@';
 	}
 

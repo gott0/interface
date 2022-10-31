@@ -8,16 +8,16 @@ public class FighterTest {
 		Attackable aa = f;
 		
 		
-		if(f instanceof Unit/*Å¬·¡½º¸í or ÀÎÅÍÆäÀÌ½º¸í*/) {
-			System.out.println("UnitÀº Á¶»ó Å¬·¡½ºÀÌ´Ù.");
+		if(f instanceof Unit/*í´ë˜ìŠ¤ëª… or ì¸í„°í˜ì´ìŠ¤ëª…*/) {
+			System.out.println("Unitì€ ì¡°ìƒ í´ë˜ìŠ¤ì´ë‹¤.");
 		}
 		
 		if(f instanceof Fighterable) {
-			System.out.println("FighterableÀº Á¶»ó Å¬·¡½ºÀÌ´Ù.");
+			System.out.println("Fighterableì€ ì¡°ìƒ í´ë˜ìŠ¤ì´ë‹¤.");
 		}
 		
 		if(f instanceof Moveable) {
-			System.out.println("MoveableÀº Á¶»ó Å¬·¡½ºÀÌ´Ù.");
+			System.out.println("Moveableì€ ì¡°ìƒ í´ë˜ìŠ¤ì´ë‹¤.");
 		}
 	}
 

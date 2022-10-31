@@ -13,7 +13,7 @@ public class Medic extends GroundUnit implements RepairableM {
 			while(g.hitPoint != g.Max_HP) {
 				g.hitPoint++;
 			}
-			System.out.println(g.toString()+"ÀÇ Ä¡·á ¿Ï·á");
+			System.out.println(g.toString()+"ì˜ ì¹˜ë£Œ ì™„ë£Œ");
 		}
 		
 	}
